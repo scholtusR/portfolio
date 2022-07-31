@@ -300,7 +300,7 @@ margin: 0 40px;
 }
 @keyframes progreso4{
     0%{width: 0;}
-    100%{width: 70%;}
+    100%{width: 85%;}
 }
 @keyframes progreso3{
     0%{width: 0;}
@@ -367,6 +367,10 @@ margin: 0 40px;
 #portfolio .fila .proyecto:hover .info{
     opacity: 1;
     bottom: 0;
+}
+
+#portfolio .fila .proyecto:hover .info .blanco{
+    color: white
 }
 
 /* Seccion contacto */
